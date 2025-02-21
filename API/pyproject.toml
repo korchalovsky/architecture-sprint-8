@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["Korchalovsky <korchalovsky@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+uvicorn = "^0.34.0"
+python-keycloak = "^5.3.0"
+fastapi = {version = "^0.115.8", extras = ["standert"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
